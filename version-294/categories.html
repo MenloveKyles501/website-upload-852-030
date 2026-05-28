@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>分类总览-高清剧集大全</title>
+  <meta name="description" content="汇集高清国产电视剧内容，覆盖热播新剧、经典剧集与精选片单，分类明确便于浏览。">
+  <meta name="keywords" content="高清国产电视剧,国产电视剧,热门电视剧,全集播放,热播剧集,精选剧集,电视剧大全,电视剧分类,影视分类">
+  <link rel="stylesheet" href="./assets/css/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="./index.html" aria-label="高清剧集大全首页">
+      <span class="brand-mark">▶</span>
+      <span class="brand-text">高清剧集大全</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link" href="./index.html">首页</a>
+      <a class="nav-link" href="./movies.html">全部影片</a>
+      <a class="nav-link active" href="./categories.html">分类</a>
+      <a class="nav-link" href="./rankings.html">排行榜</a>
+      <a class="nav-link" href="./category-domestic-drama.html">国产精品</a>
+    </nav>
+    <div class="header-actions">
+      <button class="search-button" type="button" data-search-toggle>搜索</button>
+      <button class="mobile-button" type="button" data-menu-toggle aria-label="展开菜单">☰</button>
+    </div>
+  </div>
+  <nav class="mobile-nav" data-mobile-menu aria-label="移动导航">
+    <a href="./index.html">首页</a>
+    <a href="./movies.html">全部影片</a>
+    <a href="./categories.html">分类</a>
+    <a href="./rankings.html">排行榜</a>
+    <a href="./category-domestic-drama.html">国产精品</a>
+  </nav>
+</header>
+<div class="search-panel" data-search-panel aria-hidden="true">
+  <div class="search-backdrop" data-search-close></div>
+  <div class="search-dialog" role="dialog" aria-modal="true" aria-label="站内搜索">
+    <div class="search-head">
+      <h2>搜索影片</h2>
+      <button type="button" data-search-close aria-label="关闭搜索">×</button>
+    </div>
+    <input id="site-search-input" class="search-input" type="search" placeholder="输入片名、题材、地区或年份" autocomplete="off">
+    <div class="filter-row" data-search-filters>
+      <button type="button" class="filter-pill active" data-filter="all">全部</button>
+      <button type="button" class="filter-pill" data-filter="热播剧集">热播剧集</button><button type="button" class="filter-pill" data-filter="国产精品">国产精品</button><button type="button" class="filter-pill" data-filter="悬疑刑侦">悬疑刑侦</button><button type="button" class="filter-pill" data-filter="都市爱情">都市爱情</button><button type="button" class="filter-pill" data-filter="家庭生活">家庭生活</button><button type="button" class="filter-pill" data-filter="奇幻冒险">奇幻冒险</button><button type="button" class="filter-pill" data-filter="动作警匪">动作警匪</button><button type="button" class="filter-pill" data-filter="喜剧综艺">喜剧综艺</button>
+    </div>
+    <div class="search-results" id="site-search-results"></div>
+  </div>
+</div>
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">分类总览</span>
+      <h1>高清国产电视剧与热门片单分类</h1>
+      <p>汇集高清国产电视剧内容，覆盖热播新剧、经典剧集与精选片单，分类明确便于浏览。每个专区均提供可直接访问的影片卡片与详情入口。</p>
+    </div>
+  </section>
+  <section class="main-section">
+    <div class="container">
+      <div class="category-grid">
+        <a class="category-tile" href="./category-hot-drama.html">
+  <img src="./81.jpg" alt="热播剧集" loading="lazy">
+  <span class="category-mask"></span>
+  <span class="category-content">
+    <strong>热播剧集</strong>
+    <em>精选近期热度高、题材丰富的剧集与影片内容。</em>
+  </span>
+</a><a class="category-tile" href="./category-domestic-drama.html">
+  <img src="./58.jpg" alt="国产精品" loading="lazy">
+  <span class="category-mask"></span>
+  <span class="category-content">
+    <strong>国产精品</strong>
+    <em>聚合国产故事、都市生活与现实题材佳作。</em>
+  </span>
+</a><a class="category-tile" href="./category-suspense-crime.html">
+  <img src="./112.jpg" alt="悬疑刑侦" loading="lazy">
+  <span class="category-mask"></span>
+  <span class="category-content">
+    <strong>悬疑刑侦</strong>
+    <em>围绕谜案、推理、犯罪与反转展开的紧凑叙事。</em>
+  </span>
+</a><a class="category-tile" href="./category-romance-city.html">
+  <img src="./114.jpg" alt="都市爱情" loading="lazy">
+  <span class="category-mask"></span>
+  <span class="category-content">
+    <strong>都市爱情</strong>
+    <em>覆盖爱情、都市、青春与情感成长题材。</em>
+  </span>
+</a><a class="category-tile" href="./category-family-life.html">
+  <img src="./111.jpg" alt="家庭生活" loading="lazy">
+  <span class="category-mask"></span>
+  <span class="category-content">
+    <strong>家庭生活</strong>
+    <em>关注亲情、生活、治愈与烟火气的温暖内容。</em>
+  </span>
+</a><a class="category-tile" href="./category-fantasy-adventure.html">
+  <img src="./128.jpg" alt="奇幻冒险" loading="lazy">
+  <span class="category-mask"></span>
+  <span class="category-content">
+    <strong>奇幻冒险</strong>
+    <em>奇幻、科幻、冒险与古装世界的沉浸式片单。</em>
+  </span>
+</a><a class="category-tile" href="./category-action-police.html">
+  <img src="./58.jpg" alt="动作警匪" loading="lazy">
+  <span class="category-mask"></span>
+  <span class="category-content">
+    <strong>动作警匪</strong>
+    <em>动作、警匪、战争与热血对抗类内容。</em>
+  </span>
+</a><a class="category-tile" href="./category-comedy-variety.html">
+  <img src="./90.jpg" alt="喜剧综艺" loading="lazy">
+  <span class="category-mask"></span>
+  <span class="category-content">
+    <strong>喜剧综艺</strong>
+    <em>轻喜剧、家庭喜剧、综艺感与高能笑点集合。</em>
+  </span>
+</a><a class="category-tile" href="./category-animation-anime.html">
+  <img src="./89.jpg" alt="动画少儿" loading="lazy">
+  <span class="category-mask"></span>
+  <span class="category-content">
+    <strong>动画少儿</strong>
+    <em>动画、动漫、奇趣冒险与全年龄向精选。</em>
+  </span>
+</a><a class="category-tile" href="./category-japan-korea.html">
+  <img src="./50.jpg" alt="日韩精选" loading="lazy">
+  <span class="category-mask"></span>
+  <span class="category-content">
+    <strong>日韩精选</strong>
+    <em>日本、韩国及亚洲邻近地区的精品故事。</em>
+  </span>
+</a><a class="category-tile" href="./category-euro-america.html">
+  <img src="./48.jpg" alt="欧美精选" loading="lazy">
+  <span class="category-mask"></span>
+  <span class="category-content">
+    <strong>欧美精选</strong>
+    <em>欧美剧集、电影与多元类型片单。</em>
+  </span>
+</a><a class="category-tile" href="./category-hk-tw.html">
+  <img src="./22.jpg" alt="港台好片" loading="lazy">
+  <span class="category-mask"></span>
+  <span class="category-content">
+    <strong>港台好片</strong>
+    <em>香港、台湾地区的电影剧集与经典类型作品。</em>
+  </span>
+</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a class="brand" href="./index.html">
+        <span class="brand-mark">▶</span>
+        <span class="brand-text">高清剧集大全</span>
+      </a>
+      <p>汇集高清国产电视剧内容，覆盖热播新剧、经典剧集与精选片单，分类明确便于浏览。</p>
+    </div>
+    <div class="footer-links">
+      <h3>快速导航</h3>
+      <a href="./index.html">首页</a>
+      <a href="./movies.html">全部影片</a>
+      <a href="./categories.html">分类总览</a>
+      <a href="./rankings.html">排行榜</a>
+    </div>
+    <div class="footer-links">
+      <h3>精选分类</h3>
+      <a href="./category-hot-drama.html">热播剧集</a><a href="./category-domestic-drama.html">国产精品</a><a href="./category-suspense-crime.html">悬疑刑侦</a><a href="./category-romance-city.html">都市爱情</a><a href="./category-family-life.html">家庭生活</a><a href="./category-fantasy-adventure.html">奇幻冒险</a><a href="./category-action-police.html">动作警匪</a><a href="./category-comedy-variety.html">喜剧综艺</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 高清剧集大全</div>
+</footer>
+<script src="./assets/js/site-data.js"></script>
+<script src="./assets/js/site.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
